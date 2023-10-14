@@ -1,3 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>homepage - general</title><link href="https://tealblu.github.io/homepage/" rel="alternate"></link><link href="https://tealblu.github.io/homepage/feeds/general.atom.xml" rel="self"></link><id>https://tealblu.github.io/homepage/</id><updated>2023-10-14T17:30:00-04:00</updated><entry><title>My first article</title><link href="https://tealblu.github.io/homepage/article-1.html" rel="alternate"></link><published>2023-10-14T17:30:00-04:00</published><updated>2023-10-14T17:30:00-04:00</updated><author><name>indigo</name></author><id>tag:tealblu.github.io,2023-10-14:/homepage/article-1.html</id><summary type="html">&lt;p&gt;my first article&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hey! If you're reading this, that means that the website rendered correctly!
-Currently I have absolutely NO idea what I plan to do here. We'll see, I guess.&lt;/p&gt;</content><category term="general"></category></entry></feed>
+Currently I have absolutely NO idea what I plan to do here. We'll see, I guess.&lt;/p&gt;</content><category term="general"></category></entry><entry><title>dev notes</title><link href="https://tealblu.github.io/homepage/projects-code-homepage.html" rel="alternate"></link><published>2023-10-14T17:30:00-04:00</published><updated>2023-10-14T17:30:00-04:00</updated><author><name>indigo</name></author><id>tag:tealblu.github.io,2023-10-14:/homepage/projects-code-homepage.html</id><summary type="html">&lt;p&gt;notes on this site's creation&lt;/p&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;On this day [[Oct 13th, 2023]] at 20:17, I shall revive this dead project and turn it into something amazing&lt;/li&gt;
+&lt;li&gt;Ethos:&lt;ul&gt;
+&lt;li&gt;One hub for everything&lt;/li&gt;
+&lt;li&gt;No specific purpose&lt;/li&gt;
+&lt;li&gt;Easy to navigate&lt;/li&gt;
+&lt;li&gt;Pretty&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Exploration&lt;ul&gt;
+&lt;li&gt;Self hosting seems too hard but I don't want to pay for this&lt;/li&gt;
+&lt;li&gt;Potentially use github pages I guess?&lt;ul&gt;
+&lt;li&gt;I want to be able to use more than just javascript&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cloud hosting?&lt;ul&gt;
+&lt;li&gt;Seems like the easiest option&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20:21&lt;/strong&gt; [[quick capture]]:  &lt;a href="https://render.com/"&gt;Cloud Application Hosting for Developers | Render&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;Every web service and static site on Render automatically gets a free onrender.com address which does not change. But &lt;strong&gt;you can also bring your own domains to Render easily&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://render.com/docs/custom-domains#:~:text=Every%20web%20service%20and%20static,own%20domains%20to%20Render%20easily."&gt;### Custom Domains | Render Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20:22&lt;/strong&gt; [[quick capture]]:  &lt;a href="https://gohugo.io/"&gt;The world’s fastest framework for building websites | Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20:48&lt;/strong&gt; [[quick capture]]:  &lt;a href="https://getpelican.com/"&gt;Pelican – A Python Static Site Generator&lt;/a&gt;
+  id:: 6529e555-495c-4f64-b282-24b958f00b2a&lt;/li&gt;
+&lt;li&gt;https://github.com/marketplace/actions/pelican-to-github-pages&lt;ul&gt;
+&lt;li&gt;[[Notes/Code/Pelican to Github Pages]]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Code&lt;ul&gt;
+&lt;li&gt;Hosting using &lt;a href="((6529e555-495c-4f64-b282-24b958f00b2a))"&gt;Pelican&lt;/a&gt;
+  id:: 6529e7ca-6504-45e8-9906-bf0eaa1dc515&lt;/li&gt;
+&lt;li&gt;WSL directory &lt;code&gt;~/projects/homepage&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;To build: &lt;code&gt;pelican --autoreload --listen&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;12:13&lt;/strong&gt; [[quick capture]]:  &lt;a href="https://github.com/logseq/publish-spa"&gt;logseq/publish-spa: A github action and CLI to publish logseq graphs as a SPA app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;make devserver&lt;/code&gt; sets up for testing preview&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/getpelican/pelican/blob/master/docs/tips.rst#publishing-to-github"&gt;Publishing to GitHub&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;To deploy: 
+  &lt;code&gt;cmake
+  make github&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Content&lt;/li&gt;
+&lt;li&gt;Status: deployed on GitHub Pages with one article&lt;ul&gt;
+&lt;li&gt;https://tealblu.github.io/homepage/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content><category term="general"></category><category term="projects"></category><category term="code"></category></entry></feed>
